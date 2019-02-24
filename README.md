@@ -2,15 +2,12 @@
 localhost with public CA signed SSL certificate
 
 ## Usage:  
-### For non-SSL user
-~~~~
+### For non-SSL user  
 localhost.direct with work directly without any setting, this FQDN function exactly the same as your traditional localhost also but with subdomain.localhost.direct support natively.
-~~~~
 
 ###  For user would like to account their localhost development environment with HTTPS (SSL)  
-~~~~
 Simply download or clone the key and crt file and deploy to your local development web server, you will soon enjoy the SSL development environment!
-~~~~
+
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
