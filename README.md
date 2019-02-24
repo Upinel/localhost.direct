@@ -2,8 +2,8 @@
 Today is Sunday morning and while I am solving a traditional pain of three questions:
 1. using the FQDN domain in a local testing environment
 2. using SSL in a local environment but self-signed cert can always annoying 
-3. using sub-domain in a local development environment
-So I registered the domain name localhost.direct and applied for a wildcard SSL. Point localhost.direct and *.localhost.direct to 127.0.0.1. Happy coding.
+3. using sub-domain in a local development environment  
+So I registered the domain name localhost.direct and applied for a wildcard SSL. Point localhost.direct and *.localhost.direct to 127.0.0.1. Happy coding.  
 And soon I found that there is no extra cost if I share the private key and the SSL cert to all the developers in the world. As so I did this.
 
 I set up a project website https://get.localhost.direct/ for the entry point to let developers download the latest SSL cert bundle. And it becomes the only subdomain (get.localhost.direct) reserved. 
