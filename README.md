@@ -24,6 +24,9 @@ Simply download or clone the key and crt file and deploy to your local developme
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
+## Password for pfx file:  
+**localhost**
+
 ## Credit:
 **localhost.direct** is powered by **is.Dev**eloper Community and you can get your own you@is.Dev and you.is.Dev subdomain for absolutely free from https://is.Dev  
 This project is entirely our own spending and sharing to the world with no charge. We also will not know how you use the localhost.direct and do not able to collect any information from you.  
