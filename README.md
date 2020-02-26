@@ -24,7 +24,10 @@ Simply download or clone the key and crt file and deploy to your local developme
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
-## Password for pfx file:  
+## Download
+https://aka.re/localhost
+
+## Password for cert file:  
 **localhost**
 
 ## Credit:
