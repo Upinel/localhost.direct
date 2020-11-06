@@ -30,8 +30,7 @@ https://aka.re/localhost
 ## Password for cert file:  
 **localhost**
 
-## Credit:
-**localhost.direct** is powered by **is.Dev**eloper Community and you can get your own you@is.Dev and you.is.Dev subdomain for absolutely free from https://is.Dev  
+## Credit: 
 This project is entirely our own spending and sharing to the world with no charge. We also will not know how you use the localhost.direct and do not able to collect any information from you.  
 Staring this project will be our energy to keep operating and maintenance the programme.  
 If you wish to donate us, please donate to paypal.me/Upinel, it will be really lovely.
