@@ -1,5 +1,5 @@
 # *.localhost.direct Wildcard public CA signed SSL cert with sub-domain support
-Today is Sunday morning and while I am solving a traditional pain of three questions:
+This is a story in a Sunday morning, while I am solving a traditional pain of three questions:
 1. using the FQDN domain in a local testing environment
 2. using SSL in a local environment but self-signed cert can always annoying 
 3. using sub-domain in a local development environment  
