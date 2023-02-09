@@ -40,13 +40,11 @@ https://aka.re/localhost
 ## Credit: 
 This project is entirely our own spending and sharing to the world with no charge. We also will not know how you use the localhost.direct and do not able to collect any information from you.  
 Staring this project will be our energy to keep operating and maintenance the programme.  
-If you wish to donate us, please donate to paypal.me/Upinel, it will be really lovely.
-
-inital  
+If you wish to donate us, please donate to paypal.me/Upinel, it will be really lovely.  
 
 ## Special Thanks for Sponsoring this project via paypal.me/upinel :)
 - SkyArk Inc (UK)
 - Jackson Peak LLC
 - the Lancelot Limited
-- Aimi Chow
+- Peter Jong
 I love you all <3
