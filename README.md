@@ -32,7 +32,7 @@ https://aka.re/localhost
 
 ## Last update Log. 
 - 2023-Apr-01 SSL Renewal, Expire 31 Mar 2024
-- 2022-Aug-29 Reupload the SSL file of 2022-Mar-29 (Expire 30 Apr 23, next pending renewal: 31 Mar 23)
+- 2022-Aug-29 Reupload the SSL file of 2022-Mar-29 (Expire 30 Apr 23)
 - 2022-Mar-29 SSL Renewal  
 - 2021-Mar-02 SSL Renewal  
 - 2020-Feb-26 SSL Renewal  
