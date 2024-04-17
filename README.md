@@ -31,6 +31,7 @@ https://aka.re/localhost
 **localhost**
 
 ## Last update Log. 
+- 2024-Apr-17 SSL Renewal, Expire 15 May 2025
 - 2023-Jun-15 SSL Intermediate Chain update, Expire 31 Mar 2024
 - 2023-Apr-01 SSL Renewal, Expire 31 Mar 2024
 - 2022-Aug-29 Reupload the SSL file of 2022-Mar-29 (Expire 30 Apr 23)
