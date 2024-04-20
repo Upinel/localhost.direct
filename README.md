@@ -1,5 +1,5 @@
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
-One one Sunday morning, I found myself tackling the usual trifecta of local development issues:
+One Sunday morning, I found myself tackling the usual trifecta of local development issues:
 
 1. Using Fully Qualified Domain Names (FQDNs) in local testing environments
 2. Dealing with SSL certificates in a local setting, where self-signed certificates are a nuisance
