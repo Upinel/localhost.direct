@@ -1,25 +1,27 @@
-# *.localhost.direct Wildcard public CA signed SSL cert with sub-domain support
-This is a story in a Sunday morning, while I am solving a traditional pain of three questions:
-1. using the FQDN domain in a local testing environment
-2. using SSL in a local environment but self-signed cert can always annoying 
-3. using sub-domain in a local development environment  
-So I registered the domain name localhost.direct and applied for a wildcard SSL. Point localhost.direct and *.localhost.direct to 127.0.0.1. Happy coding.  
-And soon I found that there is no extra cost if I share the private key and the SSL cert to all the developers in the world. As so I did this.
+# *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
+One one Sunday morning, I found myself tackling the usual trifecta of local development issues:
 
-I set up a project website https://get.localhost.direct/ for the entry point to let developers download the latest SSL cert bundle. And it becomes the only subdomain (get.localhost.direct) reserved. 
-I will keep updating the wildcard SSL cert on https://get.localhost.direct/ and suggestions are extremely welcome.
+1. Using Fully Qualified Domain Names (FQDNs) in local testing environments
+2. Dealing with SSL certificates in a local setting, where self-signed certificates are a nuisance
+3. Implementing sub-domains in local development environments
+
+To address these, I registered the domain localhost.direct and obtained a wildcard SSL certificate. I configured localhost.direct and *.localhost.direct to point to 127.0.0.1. Now, happy coding!
+
+Eureka! I realized that I could share the private key and SSL certificate with developers globally at no extra cost. Thus, the *.localhost.direct project was born.
+
+A project portal is available at https://get.localhost.direct/ for developers to download the most up-to-date SSL certificate bundle. This becomes the sole reserved subdomain. Updates to the wildcard SSL certificate will be posted, and your feedback is greatly appreciated.
 
 Cheers!
 
 ## Usage:  
 ### For non-SSL user
 
-localhost.direct with work directly without any setting, this FQDN function exactly the same as your traditional localhost  but with subdomain.localhost.direct support natively.
+localhost.direct works immediately without configuration, functioning just like the traditional localhost, with added support for subdomain.localhost.direct.
 
 
 ###  For user would like to use HTTPS (SSL) in their localhost development environment
 
-Simply download or clone the key and crt file and deploy to your local development web server, you will soon enjoy the SSL development environment!
+Download or clone the .key and .crt files, then deploy them to your local web server to set up an SSL-enabled local development environment.
 
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
@@ -42,11 +44,12 @@ https://aka.re/localhost
 - 2019-Feb-24 SSL project 
 
 ## Credit: 
-This project is entirely our own spending and sharing to the world with no charge. We also will not know how you use the localhost.direct and do not able to collect any information from you.  
-Staring this project will be our energy to keep operating and maintenance the programme.  
-If you wish to donate us, please donate to [paypal.me/Upinel](https://paypal.me/Upinel), it will be really lovely.  
+This project is self-funded and shared freely with the community. We respect your privacy; your usage of localhost.direct is anonymous to us.  
+Giving this project a star fuels our commitment to maintaining and improving it.
 
-## Special Thanks for Sponsoring this project via [paypal.me/Upinel](https://paypal.me/Upinel) :)
+*Donations* are welcomed at [paypal.me/Upinel](https://paypal.me/Upinel) and are deeply appreciated. 
+
+## A heartfelt thank you to the following sponsors via [paypal.me/Upinel](https://paypal.me/Upinel) :)
 - SkyArk Inc (UK)
 - Jackson Peak LLC
 - the Lancelot Limited
