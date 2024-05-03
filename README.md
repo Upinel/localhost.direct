@@ -54,6 +54,7 @@ Giving this project a star fuels our commitment to maintaining and improving it.
 - Jackson Peak LLC
 - the Lancelot Limited
 - Peter Jong  
-- cagnulein  
+- cagnulein
+- Klijn Engineering
 
 I love you all <3
