@@ -1,4 +1,8 @@
-# Current Status: Our SSL Cert had revoked by GlobalSign due to some user had leak the preivate key on internet without protection. Re-issuing is on-going, updates will be posted here: https://github.com/Upinel/localhost.direct/issues/18
+> [!IMPORTANT]
+> non-SSL (HTTP): Running normally
+
+> [!WARNING]
+> SSL (HTTPS): Our SSL Cert had revoked by GlobalSign due to some user had leak the preivate key on internet without protection. Re-issuing is on-going, updates will be posted here: https://github.com/Upinel/localhost.direct/issues/18
 
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
 One Sunday morning, I found myself tackling the usual trifecta of local development issues:
