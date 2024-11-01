@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> non-SSL (HTTP): Running normally
+> non-SSL (HTTP): Running normally  
 > SSL (HTTPS): New Short Term Cert Issued, Running normally
 
 > [!WARNING]
