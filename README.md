@@ -1,8 +1,9 @@
 > [!IMPORTANT]
 > non-SSL (HTTP): Running normally
+> SSL (HTTPS): New Short Term Cert Issued, Running normally
 
 > [!WARNING]
-> SSL (HTTPS): Our SSL Cert had revoked by GlobalSign due to some user had leak the preivate key on internet without protection. Re-issuing is on-going, updates will be posted here: https://github.com/Upinel/localhost.direct/issues/18
+> Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future.
 
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
 One Sunday morning, I found myself tackling the usual trifecta of local development issues:
@@ -36,9 +37,10 @@ Download or clone the .key and .crt files, then deploy them to your local web se
 https://aka.re/localhost
 
 ## Password for cert file:  
-**localhost**
+**IWillNotPutKeyFileInPublicAccessiblePlace**
 
 ## Last update Log. 
+- 2024-Nov-01 Short Term Cert Issue, Expire 30 Jan 2025
 - 2024-Apr-20 SSL Intermediate Chain update with the help of @mundry, Expire keep 15 May 2025
 - 2024-Apr-17 SSL Renewal, Expire 15 May 2025
 - 2023-Jun-15 SSL Intermediate Chain update, Expire 31 Mar 2024
