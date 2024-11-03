@@ -3,7 +3,7 @@
 > SSL (HTTPS): New Short Term Cert Issued, Running normally
 
 > [!WARNING]
-> Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future.
+> Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
 
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
 One Sunday morning, I found myself tackling the usual trifecta of local development issues:
