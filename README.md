@@ -1,6 +1,8 @@
 > [!IMPORTANT]
 > non-SSL (HTTP): Running normally  
 > SSL (HTTPS): Seems revoked again, issue information : https://github.com/Upinel/localhost.direct/issues/18 , I think I will develop a portal for user signup and distrubute different key pair. During the development, please email me to receive updated certificate bundle, I will send it manaually so if the volume is high, it can take some timne as I have my day work.
+
+> [!INFO]
 > Addionally, *In fact, highly recommanded* you can self-sign your own localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing.
 
 > [!WARNING]
