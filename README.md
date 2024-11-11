@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > non-SSL (HTTP): Running normally  
-.> SSL (HTTPS): Seems revoked again, issue information : https://github.com/Upinel/localhost.direct/issues/18 , I think I will develop a portal for user signup and distrubute different key pair. During the development, please email me to receive updated certificate bundle, I will send it manaually so if the volume is high, it can take some timne as I have my day work.
+> SSL (HTTPS): Seems revoked again, issue information : https://github.com/Upinel/localhost.direct/issues/18 , I think I will develop a portal for user signup and distrubute different key pair. During the development, please email me to receive updated certificate bundle, I will send it manaually so if the volume is high, it can take some timne as I have my day work.
 
 > [!WARNING]
 > Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
@@ -36,12 +36,13 @@ Download or clone the .key and .crt files, then deploy them to your local web se
 ## Download
 https://aka.re/localhost
 > [!IMPORTANT]
-> Due to the Issue: https://github.com/Upinel/localhost.direct/issues/18, you might need to send email to get@localhost.direct to get the cert bundle. Donater will have higher priority. Please support our new portal development.
+> Due to the Issue: https://github.com/Upinel/localhost.direct/issues/18, meanwhile you might need to send email to get@localhost.direct to get the cert bundle. Donater will have higher priority. Please support our new portal development.
 
 ## Password for cert file:  
 **IWillNotPutKeyFileInPublicAccessiblePlace**
 
 ## Last update Log. 
+- 2024-Noc-11 User keep leaking key, new policy need to apply before new portal unfortunately.
 - 2024-Nov-01 Short Term Cert Issue, Expire 30 Jan 2025
 - 2024-Apr-20 SSL Intermediate Chain update with the help of @mundry, Expire keep 15 May 2025
 - 2024-Apr-17 SSL Renewal, Expire 15 May 2025
