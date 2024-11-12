@@ -24,10 +24,10 @@ A project portal is available at https://get.localhost.direct/ for developers to
 Cheers!
 
 ## EULA
-According to CA/Browser Forum Baseline Requirements, you agreed:   
-> By using this service, you (localhost.direct developer) and LHD (localhost.direct) have agreed that you will act as LHD’s developer. However, LHD will never know what you’ve developed and will never claim ownership or copyright to your work. At the same time, LHD will not pay you any incentive or compensation and will not be responsible for any expenses or cost incurred during your development.  
-> With this developer agreement, LHD shell point their developing environment domain (localhost.direct and *.localhost.direct) to your development server IP address (in this case, 127.0.0.1). LHD will also grant you the right to use LHD’s SSL certificate for internal development purposes only. Which will provided to you seperately.  
-> It is important to note that you must never leak, share, share, or sublet this Certificate Bundle with any other parties. If you have more than one developer, they will all be under the same developer agreement with LHD.
+Thanks to [@BenBE](https://github.com/BenBE) for helping us summarize the CA guideline. To better comply with the guidelines, we’ve made some changes to our user agreement, and they’ll be effective immediately.
+> **By using this service,** you (localhost.direct developer) and LHD (localhost.direct) have agreed that you will act as LHD’s developer. However, LHD will never know what you’ve developed and will never claim ownership or copyright to your work. At the same time, LHD will not pay you any incentive or compensation and will not be responsible for any expenses or cost incurred during your development.
+> With this developer agreement, LHD shell point their developing environment domain (localhost.direct and *.localhost.direct) to your development server IP address (in this case, 127.0.0.1). LHD will also grant you the right to use LHD’s SSL certificate for internal development purposes only. Which will provided to you seperately.
+> It is important to note that the Certificate Bundle(s) remains LHD's properties and you must never leak, share, or sublet this Certificate Bundle with any other parties. If you have more than one developer, they will all be under the same developer agreement with LHD.
 
 ## Usage:  
 ### For non-SSL user
