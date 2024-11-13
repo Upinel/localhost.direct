@@ -29,7 +29,7 @@ Thanks to [@BenBE](https://github.com/BenBE) for helping us summarize the [CA gu
 > With this developer agreement, LHD shall point their developing environment domain (localhost.direct and *.localhost.direct) to your development server IP address (in this case, 127.0.0.1). LHD will also grant you the right to use LHD’s SSL certificate for internal development purposes only. Which will be provided to you separately.  
 > It is important to note that the Certificate Bundle(s) remains LHD's properties and you must never leak, share, or sublet this Certificate Bundle with any other parties. If you have more than one developer, they will all be under the same developer agreement with LHD.
   
-**Discriminator**: [@BenBE](https://github.com/BenBE) is NOT endorsing this project in any way, express or implied. FYI.
+**Important Disclaimer**: [@BenBE](https://github.com/BenBE) is NOT endorsing this project in any way, express or implied. FYI.
 
 ## Usage:  
 ### For non-SSL user
