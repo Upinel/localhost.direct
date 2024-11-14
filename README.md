@@ -78,6 +78,5 @@ Giving this project a star fuels our commitment to maintaining and improving it.
 - Peter Jong  
 - cagnulein
 - Klijn Engineering
-- Scale Labs
 
 I love you all <3
