@@ -6,7 +6,8 @@
 > Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing.
 
 > [!WARNING]
-> Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
+> Never Put the .key file in any public accessible place INCLUDING GITHUB projects. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
+> The Key files MUST always be password protected in a zip file. The cert bundle is zipped and password protected with a reason. CA is always keep scanning the internet to see if any key file leaked. Thanks.
 
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
 One someday morning, I found myself tackling the usual trifecta of local development issues:
