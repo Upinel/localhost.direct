@@ -50,15 +50,14 @@ We also provide Cert Bundle by Request and Cert Bundle by Sponsorship, you can r
 
 ### A. General Cert Bundle (fully Anonymous)
 > [!IMPORTANT]
-> > Using General Cert Bundle might have the risk of cert revocation again and again if any user misuses it. The General Cert might also have very low priority of maintenance and require user reports to re-issue. https://github.com/Upinel/localhost.direct/issues/18
+> Using General Cert Bundle might have the risk of cert revocation again and again if any user misuses it. The General Cert might also have less priority of maintenance and require user reports to re-issue it. https://github.com/Upinel/localhost.direct/issues/18
 
 Download: https://aka.re/localhost  
-**Password for General Cert Bundle file:**   
-**IWillNotPutKeyFileInPublicAccessiblePlace.X1YKK**
+Password for General Cert Bundle file:  **IWillNotPutKeyFileInPublicAccessiblePlace.X1YKK**
 
-### B. Cert Bundle by Request (Free)
-You may send a request to get@localhost.direct to obtain a certificate bundle that is only shared with limited users if you want to reduce the risk of being revoked due to other users’ bad behaviour (not 100%).   
-The email must include the following information:  
+### B. Cert Bundle by Request (Free - by minimal registration)
+You may send a request to get@localhost.direct to obtain a certificate bundle that is only shared with limited users if you want to reduce (not 100%) the risk of being revoked due to other users’ bad behaviour.   
+The email must include the following informations:  
 ```
 Your Email: (Email must not be temporary email)
 Your GitHub ID:
