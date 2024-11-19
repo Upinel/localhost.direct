@@ -3,7 +3,7 @@
 > SSL (HTTPS): Running normally. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
 
 > [!TIP]
-> Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing.
+> Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing. (See Download - Section D)
 
 > [!WARNING]
 > Never Put the .key file in any public accessible place INCLUDING GITHUB projects. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
@@ -47,7 +47,7 @@ We also provide Cert Bundle by Request and Cert Bundle by Sponsorship, you can r
 > [!IMPORTANT]
 > Using General Cert Bundle might have the risk of cert revocation again and again if any user misuses it. The General Cert might also have less priority of maintenance and require user reports to re-issue it. https://github.com/Upinel/localhost.direct/issues/18
 
-Download: https://aka.re/localhost  
+Download: [https://aka.re/localhost](https://aka.re/localhost)  
 Password for General Cert Bundle file:  **IWillNotPutKeyFileInPublicAccessiblePlace.X1YKK**
 
 ### B. Cert Bundle by Request (Free - by minimal registration)
@@ -62,6 +62,11 @@ Your Project Name:
 
 ### C. Cert Bundle by Sponsorship  
 To express our gratitude to our sponsors, Sponsors can request one-year version of the Cert Bundle who have made a monthly donation of $5 or a one-time donation of over $40. To request this special offer, please send an email to get@localhost.direct, providing your sponsorship GitHub ID or PayPal ID. Your support will be instrumental in helping us develop our own auto-issuing portal as soon as possible. Sponsors who make a donation before November 2024, regardless of the amount, can request the Cert Bundle as a token of appreciation for their early support.
+
+### D. Non-Public CA certificate (If you have admin right on your development environment, you can use the following 10 years long pre-generated self-signed certificate.)
+This is the most certain way to avoid CA revocation. Simply download the following Certificate Bundle (or create it yourself), install it, and trust the certificate. As a result, you’ll have a 10-year-long *.localhost.direct certificate installed on your development environment. Since it’s trusted locally, it’s the most stable solution if you are in a environment that have full admin rights.  
+Download: [https://aka.re/localhost-ss](https://aka.re/localhost-ss)  
+Password: **localhost**
 
 ## Last update Log. 
 - 2024-Nov-19 Reissuing the General Certificate Bundle.
