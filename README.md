@@ -66,7 +66,7 @@ Your Project Name:
 **The Cert Bundle by Request might take sometime to process**  
 
 ### C. Cert Bundle by Sponsorship  
-To thank sponsors, sponsors with $5/monthly or >$40 one-time sponsor can request a 1-year version of the cert bundle. You may send a request to get@localhost.direct to obtain the yearly long certificate with your sponsorship github ID / Paypal ID. All sponsors will help us develop our own auto-issuing portal as soon as possible.
+To express our gratitude to our sponsors, Sponsors can request one-year version of the Cert Bundle who have made a monthly donation of $5 or a one-time donation of over $40. To request this special offer, please send an email to get@localhost.direct, providing your sponsorship GitHub ID or PayPal ID. Your support will be instrumental in helping us develop our own auto-issuing portal as soon as possible. Sponsors who make a donation before November 2024, regardless of the amount, can request the Cert Bundle as a token of appreciation for their early support.
 
 ## Last update Log. 
 - 2024-Nov-19 Reissuing the General Certificate Bundle.
