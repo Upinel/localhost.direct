@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > non-SSL (HTTP): Running normally  
-> SSL (HTTPS): Seems revoked again, issue information : https://github.com/Upinel/localhost.direct/issues/18 , I think I will develop a portal for user signup and distrubute different key pair. During the development, please email me to receive updated certificate bundle, I will send it manaually so if the volume is high, it can take some timne as I have my day work.
+> SSL (HTTPS): Running normally. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
 
 > [!TIP]
 > Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing.
@@ -9,7 +9,7 @@
 > Never Put the .key file in any public accessible place. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
 
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
-One Sunday morning, I found myself tackling the usual trifecta of local development issues:
+One someday morning, I found myself tackling the usual trifecta of local development issues:
 
 1. Using Fully Qualified Domain Names (FQDNs) in local testing environments
 2. Dealing with SSL certificates in a local setting, where self-signed certificates are a nuisance
@@ -36,7 +36,6 @@ Thanks to [@BenBE](https://github.com/BenBE) for helping us summarize the [CA gu
 
 localhost.direct works immediately without configuration, functioning just like the traditional localhost, with added support for subdomain.localhost.direct.
 
-
 ###  For user would like to use HTTPS (SSL) in their localhost development environment
 
 Download or clone the .key and .crt files, then deploy them to your local web server to set up an SSL-enabled local development environment.
@@ -45,15 +44,37 @@ Download or clone the .key and .crt files, then deploy them to your local web se
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
 ## Download
-https://aka.re/localhost
+
+We now have two-tier cert bundle, for user want to have fully anonymous, please use General Cert Bundle.
+We also provide Cert Bundle by Request and Cert Bundle by Sponsorship, you can request it by email.
+
+### General Cert Bundle (fully Anonymous)
+> [!IMPORTANT]
+> > Using General Cert Bundle might have the risk of cert revocation again and again if any user misuses it. The General Cert might also have very low priority of maintenance and require user reports to re-issue. https://github.com/Upinel/localhost.direct/issues/18        
+Download: https://aka.re/localhost
+**Password for General Cert Bundle file:**  
+**IWillNotPutKeyFileInPublicAccessiblePlace.X1YKK**
+
+### Cert Bundle by Request (Free)
+You may send a request to get@localhost.direct to obtain a certificate bundle that is only shared with limited users if you want to reduce the risk of being revoked due to other users’ bad behaviour (not 100%).  
+The email must include the following information:  
+```
+Your Email: (Email must not be temporary email)
+Your GitHub ID:
+Your Project Name: 
+```
+**The Cert Bundle by Request might take sometime to process**
+
+### Cert Bundle by Sponsorship
+To thank sponsors, sponsors with $5/monthly or >$40 one-time sponsor can request a 1-year version of the cert bundle. You may send a request to get@localhost.direct to obtain the yearly long certificate with your sponsorship github ID / Paypal ID. All sponsors will help us develop our own auto-issuing portal as soon as possible.
+
+### 
 > [!IMPORTANT]
 > Due to the Issue: https://github.com/Upinel/localhost.direct/issues/18, meanwhile you might need to send email to get@localhost.direct to get the cert bundle. Donater will have higher priority. Please support our new portal development.
 
-## Password for cert file:  
-**IWillNotPutKeyFileInPublicAccessiblePlace**
-
 ## Last update Log. 
-- 2024-Noc-11 User keep leaking key, new policy need to apply before new portal unfortunately.
+- 2024-Nov-19 Reissuing the General Certificate Bundle.
+- 2024-Nov-11 User keep leaking key, new policy need to apply before new portal unfortunately.
 - 2024-Nov-01 Short Term Cert Issue, Expire 30 Jan 2025
 - 2024-Apr-20 SSL Intermediate Chain update with the help of @mundry, Expire keep 15 May 2025
 - 2024-Apr-17 SSL Renewal, Expire 15 May 2025
