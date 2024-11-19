@@ -25,27 +25,21 @@ A project portal is available at https://get.localhost.direct/ for developers to
 Cheers!
 
 ## EULA
-Thanks to [@BenBE](https://github.com/BenBE) for helping us summarize the [CA guideline](https://github.com/Upinel/localhost.direct/issues/19). To better comply with the guidelines, we’ve made some changes to our user agreement, and they’ll be effective immediately:
-> **By using this service,** you (localhost.direct developer) and LHD (localhost.direct) have agreed that you will act as LHD’s developer. However, LHD will never know what you’ve developed and will never claim ownership or copyright to your work. At the same time, LHD will not pay you any incentive or compensation and will not be responsible for any expenses or cost or damage incurred during your development.  
-> With this developer agreement, LHD shall point their developing environment domain (localhost.direct and *.localhost.direct) to your development server IP address (in this case, 127.0.0.1). LHD will also grant you the right to use LHD’s SSL certificate for internal development purposes only. Which will be provided to you separately.  
-> It is important to note that the Certificate Bundle(s) remains LHD's properties and you must never leak, share, or sublet this Certificate Bundle with any other parties. If you have more than one developer, they will all be under the same developer agreement with LHD.
-  
-**Important Disclaimer**: [@BenBE](https://github.com/BenBE) is NOT endorsing this project in any way, express or implied. FYI.
+**By using this service,** you (localhost.direct developer) and LHD (localhost.direct) have agreed that you will act as LHD’s developer. However, LHD will never know what you’ve developed and will never claim ownership or copyright to your work. At the same time, LHD will not pay you any incentive or compensation and will not be responsible for any expenses or cost or damage incurred during your development.  
+With this developer agreement, LHD shall point their developing environment domain (localhost.direct and *.localhost.direct) to your development server IP address (in this case, 127.0.0.1). LHD will also grant you the right to use LHD’s SSL certificate for internal development purposes only. Which will be provided to you separately.  
+It is important to note that the Certificate Bundle(s) remains LHD's properties and you must never leak, share, or sublet this Certificate Bundle with any other parties. If you have more than one developer, they will all be under the same developer agreement with LHD.
 
 ## Usage:  
-### For non-SSL user
-
+### For non-SSL user  
 localhost.direct works immediately without configuration, functioning just like the traditional localhost, with added support for subdomain.localhost.direct.
 
-###  For user would like to use HTTPS (SSL) in their localhost development environment
-
+###  For user would like to use HTTPS (SSL) in their localhost development environment  
 Download or clone the .key and .crt files, then deploy them to your local web server to set up an SSL-enabled local development environment.
 
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
-## Download
-
+## Download  
 We now have two-tier cert bundle, for user want to have fully anonymous, please use General Cert Bundle.
 We also provide Cert Bundle by Request and Cert Bundle by Sponsorship, you can request it by email.
 
