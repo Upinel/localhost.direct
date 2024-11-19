@@ -69,10 +69,6 @@ Your Project Name:
 ### C. Cert Bundle by Sponsorship  
 To thank sponsors, sponsors with $5/monthly or >$40 one-time sponsor can request a 1-year version of the cert bundle. You may send a request to get@localhost.direct to obtain the yearly long certificate with your sponsorship github ID / Paypal ID. All sponsors will help us develop our own auto-issuing portal as soon as possible.
 
-### 
-> [!IMPORTANT]
-> Due to the Issue: https://github.com/Upinel/localhost.direct/issues/18, meanwhile you might need to send email to get@localhost.direct to get the cert bundle. Donater will have higher priority. Please support our new portal development.
-
 ## Last update Log. 
 - 2024-Nov-19 Reissuing the General Certificate Bundle.
 - 2024-Nov-11 User keep leaking key, new policy need to apply before new portal unfortunately.
