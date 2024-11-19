@@ -1,15 +1,7 @@
-> [!IMPORTANT]
-> non-SSL (HTTP): Running normally  
-> SSL (HTTPS): Running normally. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
-
-> [!TIP]
-> Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing. (See Download - Section D)
-
-> [!WARNING]
-> Never Put the .key file in any public accessible place INCLUDING GITHUB projects. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
-> The Key files MUST always be password protected in a zip file. The cert bundle is zipped and password protected with a reason. CA is always keep scanning the internet to see if any key file leaked. Thanks.
-
 # *.localhost.direct - Wildcard Publicly Signed SSL Certificate with Subdomain Support
+> [!NOTE]  
+> New DNS Discussion is currently ongoing: https://github.com/Upinel/localhost.direct/issues/21  
+
 One someday morning, I found myself tackling the usual trifecta of local development issues:
 
 1. Using Fully Qualified Domain Names (FQDNs) in local testing environments
@@ -23,6 +15,18 @@ Eureka! I realized that I could share the private key and SSL certificate with d
 A project portal is available at https://get.localhost.direct/ for developers to download the most up-to-date SSL certificate bundle. This becomes the sole reserved subdomain. Updates to the wildcard SSL certificate will be posted, and your feedback is greatly appreciated.
 
 Cheers!
+
+## Important Informations
+> [!IMPORTANT]
+> non-SSL (HTTP): Running normally  
+> SSL (HTTPS): Running normally. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
+
+> [!TIP]
+> Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing. (See Download - Section D)
+
+> [!WARNING]
+> Never Put the .key file in any public accessible place INCLUDING GITHUB projects. If founded, the cert will revoke. I don't want to require user registration in the future. issue: https://github.com/Upinel/localhost.direct/issues/18
+> The Key files MUST always be password protected in a zip file. The cert bundle is zipped and password protected with a reason. CA is always keep scanning the internet to see if any key file leaked. Thanks.
 
 ## EULA
 *To better comply with the guidelines, we’ve made some changes to our user agreement, and they’ll be effective immediately:*  
