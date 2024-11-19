@@ -81,9 +81,9 @@ To express our gratitude to our sponsors, Sponsors can request one-year version 
 This project is self-funded and shared freely with the community. We respect your privacy; your usage of localhost.direct is anonymous to us.  
 Giving this project a star fuels our commitment to maintaining and improving it.
 
-*Donations* are welcomed at [paypal.me/Upinel](https://paypal.me/Upinel) and are deeply appreciated. 
+*Donations* are welcomed at [Github Sponsor](https://github.com/sponsors/Upinel) or [paypal.me/Upinel](https://paypal.me/Upinel) and are deeply appreciated. 
 
-## A heartfelt thank you to the following sponsors via [paypal.me/Upinel](https://paypal.me/Upinel) :)
+## A heartfelt thank you to the following sponsors :)
 - SkyArk Inc (UK)
 - Jackson Peak LLC
 - the Lancelot Limited
