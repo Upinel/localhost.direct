@@ -19,7 +19,7 @@ Cheers!
 ## Important Informations
 > [!IMPORTANT]
 > non-SSL (HTTP): Running normally  
-> SSL (HTTPS): Running normally. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
+> SSL (HTTPS): Suggest use Private CA CertBundle and Trust in local environment. Due to the possible key leak causing cert revoke again https://github.com/Upinel/localhost.direct/issues/18, we are currently providing two-tier Cert Bundle.
 
 > [!TIP]
 > Addionally, *In fact, highly recommanded* you can self-sign your own *.localhost.direct certificate and trust the certificate in your organisation, it can make sure public CA revoke does nothing to your developing enviroment, and you can still enjoy public supported sub-domain development testing. (See Download - Section D)
@@ -48,14 +48,20 @@ Download or clone the .key and .crt files, then deploy them to your local web se
 We now have two-tier cert bundle, for user want to have fully anonymous, please use General Cert Bundle.
 We also provide Cert Bundle by Request and Cert Bundle by Sponsorship, you can request it by email.
 
-### <ins>A. General Cert Bundle</ins> (fully Anonymous)</ins>
+### <ins>A. Non-Public CA certificate</ins> (If you have admin right on your development environment, you can use the following 10 years long pre-generated self-signed certificate.)
+This is the most certain way to avoid CA revocation. Simply download the following Certificate Bundle (or create it yourself), install it, and trust the certificate. As a result, you’ll have a 10-year-long *.localhost.direct certificate installed on your development environment. Since it’s trusted locally, it’s the most stable solution if you are in a environment that have full admin rights.  
+Download: [https://aka.re/localhost-ss](https://aka.re/localhost-ss)  
+Password: **localhost**
+
+### <ins>B. General Cert Bundle</ins> (fully Anonymous - Stopped, please consider using Non-Public CA certBundle and Trusted in local environment)</ins>
+
 > [!IMPORTANT]
 > Using General Cert Bundle might have the risk of cert revocation again and again if any user misuses it. The General Cert might also have less priority of maintenance and require user reports to re-issue it. https://github.com/Upinel/localhost.direct/issues/18
 
 Download: [https://aka.re/localhost](https://aka.re/localhost)  
 Password for General Cert Bundle file:  **IWillNotPutKeyFileInPublicAccessiblePlace.X1YKK**
 
-### <ins>B. Cert Bundle by Request</ins> (Free - by minimal registration)
+### <ins>C. Cert Bundle by Request</ins> (Free - by minimal registration)
 You may send a request to get@localhost.direct to obtain a certificate bundle that is only shared with limited users if you want to reduce (not 100%) the risk of being revoked due to other users’ bad behaviour.   
 The email must include the following informations:  
 ```
@@ -65,15 +71,11 @@ Your Project Name:
 ```
 **The Cert Bundle by Request might take sometime to process**  
 
-### <ins>C. Cert Bundle by Sponsorship</ins>  
+### <ins>D. Cert Bundle by Sponsorship</ins>  
 To express our gratitude to our sponsors, Sponsors can request one-year version of the Cert Bundle who have made a monthly donation of $5 or a one-time donation of over $40. To request this special offer, please send an email to get@localhost.direct, providing your sponsorship GitHub ID or PayPal ID. Your support will be instrumental in helping us develop our own auto-issuing portal as soon as possible. Sponsors who make a donation before November 2024, regardless of the amount, can request the Cert Bundle as a token of appreciation for their early support.
 
-### <ins>D. Non-Public CA certificate</ins> (If you have admin right on your development environment, you can use the following 10 years long pre-generated self-signed certificate.)
-This is the most certain way to avoid CA revocation. Simply download the following Certificate Bundle (or create it yourself), install it, and trust the certificate. As a result, you’ll have a 10-year-long *.localhost.direct certificate installed on your development environment. Since it’s trusted locally, it’s the most stable solution if you are in a environment that have full admin rights.  
-Download: [https://aka.re/localhost-ss](https://aka.re/localhost-ss)  
-Password: **localhost**
-
 ## Last update Log. 
+- 2024-Dec-01 Suggest User to use and trusting Private CA certificate
 - 2024-Nov-19 Reissuing the General Certificate Bundle.
 - 2024-Nov-11 User keep leaking key, new policy need to apply before new portal unfortunately.
 - 2024-Nov-01 Short Term Cert Issue, Expire 30 Jan 2025
