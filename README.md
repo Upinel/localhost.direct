@@ -41,6 +41,14 @@ localhost.direct works immediately without configuration, functioning just like 
 ###  For user would like to use HTTPS (SSL) in their localhost development environment  
 Download or clone the .key and .crt files, then deploy them to your local web server to set up an SSL-enabled local development environment.
 
+### Temporarily forward HTTPS requests to your local HTTP service
+```
+go get ./...
+go build
+# Forward requests from https://<subdomain>.localhost.direct:3000 to http://192.168.9.113:3000
+./localhost_direct -p 3000 -rh 192.168.9.113 -rp 3000
+```
+
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
