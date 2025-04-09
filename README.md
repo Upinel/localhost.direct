@@ -72,7 +72,7 @@ Your Project Name:
 **The Cert Bundle by Request might take sometime to process**  
 
 ### <ins>D. Cert Bundle by Sponsorship</ins>  
-To express our gratitude to our sponsors, Sponsors can request one-year version of the Cert Bundle who have made a monthly donation of $5 or a one-time donation of over $40. To request this special offer, please send an email to get@localhost.direct, providing your sponsorship GitHub ID or PayPal ID. Your support will be instrumental in helping us develop our own auto-issuing portal as soon as possible. Sponsors who make a donation before November 2024, regardless of the amount, can request the Cert Bundle as a token of appreciation for their early support.
+To express our gratitude to our sponsors, Sponsors can request one-year version of the Cert Bundle who have made a monthly donation of $5 or a one-time donation of over $40. To request this special offer, please send an email to get@localhost.direct, providing your sponsorship GitHub ID or PayPal ID. Your support will be instrumental in helping us develop our own auto-issuing portal as soon as possible.
 
 ## Last update Log. 
 - 2024-Dec-01 Suggest User to use and trusting Private CA certificate
