@@ -108,6 +108,14 @@ Some ISPs and DNS resolvers (OpenDNS, corporate networks) block DNS responses th
 ### Certificate revocation (#18)
 The public CA certificate may be revoked if the private key is found in public repositories. For maximum stability, use the **Self-Signed Certificate** (Option A below) — it's immune to CA revocation and lasts 10 years.
 
+### Temporarily forward HTTPS requests to your local HTTP service
+```
+go get ./...
+go build
+# Forward requests from https://<subdomain>.localhost.direct:3000 to http://192.168.9.113:3000
+./localhost_direct -p 3000 -rh 192.168.9.113 -rp 3000
+```
+
 ## Limitation:
 **get.localhost.direct** is reserved and it is the only subdomain that you cannot use.
 
